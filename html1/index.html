@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Pembelajaran Arduino</title>
+</head>
+<body>
+
+<!-- navbar start -->
+<nav class="navbar bg-primary-subtle fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">PEMBELAJARAN ARDUINO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="../index1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index1.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index1.html">Kontak</a>
+                    </li>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- navbar end -->
+
+<!-- carousel start -->
+<div id="carouselExample" class="carousel slide bg-dark" style="top: 56px;" >
+    <div class="carousel-inner align-items-center" style="align-items: center;">
+        <div class="carousel-item active" style="align-items: center;">
+            <img src="arduino-uno-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-uno">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-due-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-due">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-mega-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-mega">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-leonardo-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-leonardo">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-fio-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-fio">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-lilypad-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-lilypad">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-nano-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-nano">
+        </div>
+        <div class="carousel-item" style="align-items: center;">
+            <img src="arduino-micro-removebg-preview.png" class="d-block w-25 mx-auto" style="align-items: center;" alt="arduino-mega">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- carousel end -->
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-uno-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino uno">
+    <div>
+        <h5 class="mt-0">ARDUINO UNO</h5>
+        <p>Arduino Uno adalah board mikrokontroler berbasis ATmega328
+        (datasheet). Memiliki 14 pin input dari output digital dimana 6 pin input
+        tersebut dapat digunakan sebagai output PWM dan 6 pin input analog, 16
+        MHz osilator kristal, koneksi USB, jack power, ICSP header, dan tombol
+        reset. Untuk mendukung mikrokontroler agar dapat digunakan, cukup
+        hanya menghubungkan Board Arduino Uno ke komputer dengan
+        menggunakan kabel USB atau listrik dengan AC yang-ke adaptor-DC atau
+        baterai untuk menjalankannya.
+        Setiap 14 pin digital pada arduino uno dapat digunakan sebagai
+        input dan output, menggunakan fungsi pinMode(), digitalwrite(), dan
+        digitalRead(). Fungsi fungsi tersebut beroperasi di tegangan 5 volt, Setiap
+        pin dapat memberikan atau menerima suatu arus maksimum 40 mA dan
+        mempunyai sebuah resistor pull-up (terputus secara default) 20-50 kOhm</p>
+        <a href="https://eprints.utdi.ac.id/4940/3/3_143310018_BAB_II.pdf" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-due-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino due">
+    <div>
+        <h5 class="mt-0">ARDUINO DUE</h5>
+        <p>Arduino Due adalah
+        board mikrokontroler yang berbasis pada CPU Atmel SAM3X8E ARM
+        Cortex-M3. Ini adalah board Arduino pertama yang berbasis pada
+        mikrokontroler ARM inti 32-bit. Ini memiliki 54 pin input / output digital
+        (12 di antaranya dapat digunakan sebagai output PWM), 12 input analog, 4 UART (port serial perangkat keras), jam 84 MHz, koneksi USB OTG yang
+        mampu, 2 DAC (digital to analog) , 2 TWI, colokan listrik, header SPI,
+        header JTAG, tombol reset dan tombol hapus.</p>
+        <a href="https://spiceman-net.translate.goog/arduino-due/?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-mega-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino mega">
+    <div>
+        <h5 class="mt-0">ARDUINO MEGA</h5>
+        <p>Arduino Mega 2560 adalah sebuah board arduino yang menggunakan IC Mikrokontroler 2560. Board ini memiliki Pin I/O yang
+        relatif banyak, 54 digital Input / Output, 15 buah di antaranya dapat digunakan sebagai output PWM, 16 buah analog
+        input, 4 UART (port serial).</p>
+        <a href="https://elibrary.unikom.ac.id/id/eprint/3651/8/UINIKOM_Nur%20Hidayat%20Saidi_BAB%20II.pdf" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-leonardo-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino leonardo">
+    <div>
+        <h5 class="mt-0">ARDUINO LEONARDO</h5>
+        <p>Arduino Leonardo adalah papan mikrokontroler berbasis ATmega32u4 (datasheet ATmega32U4). Arduino Leonardo memiliki 20
+        digital pin input/output (yang mana 7 pin dapat digunakan sebagai output PWM dan 12 pin sebagai input analog), 16 MHz
+        kristal osilator, koneksi micro USB, jack power suplai tegangan, header ICSP, dan tombol reset. Ini semua yang
+        diperlukan untuk mendukung mikrokontroler. Cukup dengan menghubungkannya ke komputer melalui kabel USB atau power
+        dihubungkan dengan adaptor AC-DC atau baterai untuk mulai mengaktifkannya.</p>
+        <a href="https://henduino.github.io/library/board/mengenal-arduino-leonardo/" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-fio-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino fio">
+    <div>
+        <h5 class="mt-0">ARDUINO FIO</h5>
+        <p>Arduino Fio adalah papan mikrokontroler berdasarkan ATmega328P ( datasheet ) berjalan di 3.3V dan 8 MHz . Ini memiliki
+        14 digital pin input / output ( dimana 6 dapat digunakan sebagai output PWM ) , 8 input analog , resonator on-board ,
+        tombol reset , dan lubang untuk pemasangan pin header . Ini memiliki koneksi untuk baterai Lithium Polymer dan termasuk
+        rangkaian biaya melalui USB . Soket XBee tersedia di bawah papan Arduino Fio ditujukan untuk aplikasi nirkabel .
+        Pengguna dapat meng-upload sketsa dengan kabel FTDI atau Sparkfun papan breakout . Selain itu , dengan menggunakan
+        dimodifikasi USB – to- XBee adaptor seperti XBee Explorer USB , pengguna dapat meng-upload sketsa nirkabel . Papan
+        datang tanpa header pra – mount , memungkinkan penggunaan berbagai jenis konektor atau solder langsung kabel .
+        dihubungkan dengan adaptor AC-DC atau baterai untuk mulai mengaktifkannya.</p>
+        <a href="https://habibi028.wordpress.com/2016/01/05/arduino-fio/" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-lilypad-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino lilypad">
+    <div>
+        <h5 class="mt-0">ARDUINO LILYPAD</h5>
+        <p>Arduino LilyPad adalah papan utama didasarkan pada ATmega168V ( versi rendah daya dari ATmega168 ) atau ATmega328V . The
+        LilyPad Arduino dirancang dan dikembangkan oleh Leah Buechley dan SparkFun Electronics .</p>
+        <a href="https://habibi028.wordpress.com/2016/01/05/arduino-lilypad/" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-nano-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino nano">
+    <div>
+        <h5 class="mt-0">ARDUINO NANO</h5>
+        <p>Arduino Nano adalah salah satu papan pengembangan mikrokontroler yang
+        berukuran kecil, lengkap dan mendukung penggunaan breadboard. Arduino Nano
+        diciptakan dengan basis mikrokontroler ATmega328 (untuk Arduino Nano versi
+        3.x) atau ATmega 168 (untuk Arduino versi 2.x). Arduino Nano kurang lebih
+        memiliki fungsi yang sama dengan Arduino Duemilanove, tetapi dalam paket yang
+        berbeda. Arduino Nano tidak menyertakan port DC berjenis Barrel Jack, dan
+        dihubungkan ke komputer menggunakan port USB Mini-B. Pada Tabel 2.2
+        dijelaskan fungsi dari masing-masing pin pada Arduino nano.</p>
+        <a href="https://elibrary.unikom.ac.id/id/eprint/3919/8/UNIKOM_Wa%20Ode%20Siti%20Aulia%20Y_Bab%202.pdf" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+<div class="d-flex position-relative bg-dark" style="top: 55px; color: white;">
+    <img src="arduino-micro-removebg-preview.png" class="flex-shrink-0 me-3" alt="arduino micro">
+    <div>
+        <h5 class="mt-0">ARDUINO MICRO</h5>
+        <p>Arduino Micro adalah papan mikrokontroler berbasis ATmega32U4, yang dikembangkan bersama dengan Adafruit. Ini memiliki
+        24 pin input/output digital (7 di antaranya dapat digunakan sebagai output PWM dan 12 sebagai input analog), osilator
+        kristal 16 MHz, konektor micro USB, header pemrograman sistem dalam sirkuit (ICSP), dan reset. tombol. Ini berisi semua
+        yang diperlukan untuk mendukung mikrokontroler; cukup sambungkan ke komputer dengan kabel Micro USB (tidak disertakan)
+        untuk memulai. Header disusun dengan jarak 0,1″ untuk kompatibilitas dengan papan tempat memotong roti tanpa solder
+        standar dan papan perfboard serta konektor yang menggunakan kisi 0,1″.</p>
+        <a href="https://www-pololu-com.translate.goog/product/2188?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc" class="stretched-link">Go somewhere</a>
+    </div>
+</div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
